@@ -1,7 +1,7 @@
 <div class="d-flex justify-content-between gap-5 pt-4 mt-5">
     <div class="title-left w-25">
         <div class="header-title fs-4 mb-2 font-weight-bolder">
-            AtoZ
+            TOKO ONLINE KITA
         </div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae optio a illo
             accusantium deserunt officiis distinctio suscipit ut eveniet, deleniti non aut eaque, ipsum
