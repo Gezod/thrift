@@ -21,7 +21,9 @@
         </div>
     </div>
     <div class="col-md-6">
-        <img src="{{ asset('assets/images/office-2.png') }}" style="width:100%" alt="Office Image">
+        <img src="{{ asset('assets/images/orang.png') }}" style="max-width: 150%; height: 100%;" alt="orang">
+
+
     </div>
 </div>
 
