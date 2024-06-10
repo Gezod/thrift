@@ -3,9 +3,9 @@
         <div class="header-title fs-4 mb-2 font-weight-bolder">
             AtoZ
         </div>
-        <p>your premier destination for sustainable and stylish thrifting. 
-            At AtoZ, we bring together buyers and sellers to celebrate the art of thrifting 
-            while promoting eco-friendly fashion choices.</p>
+        <p>your premier destination for sustainable and stylish thrifting.
+            At AtoZ, we bring together buyers and sellers to celebrate the art of thrifting
+            while promoting eco-friendly fashion choicesss.</p>
     </div>
     <div class="title-middle w-25">
         <div class="header-title fs-4 mb-2 font-weight-bolder">
@@ -14,7 +14,7 @@
         <ul class="list-unstyled">
             <li>
                 <p>
-                Join us at AtoZ and discover the joy of thrifting while contributing to a more sustainable future. 
+                Join us at AtoZ and discover the joy of thrifting while contributing to a more sustainable future.
                 Happy thrifting!
                 </p>
             </li>
