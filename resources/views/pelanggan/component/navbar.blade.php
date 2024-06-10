@@ -9,7 +9,7 @@
             <ul class="navbar-nav gap-4">
                 <li class="nav-item">
                     <a class="nav-link {{ Request::path() == '/' ? 'active' : '' }}" aria-current="page"
-                        href="/">Home</a>
+                        href="/">Homeee</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Request::path() == 'shop' ? 'active' : '' }}" href="/shop">Shop</a>
