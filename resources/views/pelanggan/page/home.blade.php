@@ -19,9 +19,11 @@
                     <div class="card-footer d-flex flex-row justify-content-between align-items-center">
                         <p class="m-0" style="font-size: 16px; font-weight:600;"><span>IDR
                             </span>{{ number_format($b->harga) }}</p>
-                        <button class="btn btn-outline-primary" style="font-size:24px">
-                            <i class="fa-solid fa-cart-plus"></i>
-                        </button>
+                        @auth
+                            <button class="btn btn-outline-primary" style="font-size:24px">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </button>
+                        @endauth
                     </div>
                 </div>
             @endforeach
@@ -46,17 +48,21 @@
                     <div class="card-footer d-flex flex-row justify-content-between align-items-center">
                         <p class="m-0" style="font-size: 16px; font-weight:600;"><span>IDR
                             </span>{{ number_format($p->harga) }}</p>
-                        <form action="{{route('addTocart')}}" method="POST">
-                            @csrf
-                            <input type="hidden" name="idProduct" value="{{$p->id}}">
-                            <button type="submit" class="btn btn-outline-primary" style="font-size:24px">
-                                <i class="fa-solid fa-cart-plus"></i>
-                            </button>
-                        </form>
+                        @auth
+                            <form action="{{ route('addTocart') }}" method="POST">
+                                @csrf
+                                <input type="hidden" name="idProduct" value="{{ $p->id }}">
+                                <button type="submit" class="btn btn-outline-primary" style="font-size:24px">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                </button>
+                            </form>
+                        @endauth
                     </div>
                 </div>
             @endforeach
+        @endif
     </div>
+
     <div class="pagination d-flex flex-row justify-content-between">
         <div class="showData">
             Data ditampilkan {{ $data->count() }} dari {{ $data->total() }}
@@ -65,6 +71,4 @@
             {{ $data->links() }}
         </div>
     </div>
-    @endif
-
 @endsection
