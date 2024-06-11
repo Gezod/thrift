@@ -110,7 +110,7 @@
 
                         <button type="submit" class="btn btn-success w-100">
                             <i class="fas fa-print"></i>
-                            print struck
+                            Check Out
                         </button>
                     </div>
                 </div>
